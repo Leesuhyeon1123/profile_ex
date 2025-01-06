@@ -56,6 +56,9 @@ article.profile img{
 .profile-img img:hover {
   transform: scale(1.2);
 }
+article.profile {
+  text-align: center;
+}
 article.profile h1 {
   font-weight: bold;
   font-size: 22px;
@@ -72,9 +75,9 @@ article.profile h2 {
   font-family: "arial";
   color: #bbb;
   margin-bottom: 30px;
-  /* text-align: center;
-    font-size: 11px;
-    color: #aaa; */
+
+  font-size: 11px;
+  color: #aaa;
 }
 article a.btn-view {
   background-color: aqua;
@@ -82,6 +85,7 @@ article a.btn-view {
   border-radius: 16px;
   text-decoration: none;
   color: azure;
+
   margin: auto;
   /* display: block; */
   width: 180px;
